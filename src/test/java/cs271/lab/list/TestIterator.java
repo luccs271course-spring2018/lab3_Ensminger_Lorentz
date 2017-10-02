@@ -12,6 +12,7 @@ import java.util.List;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+//import java.util.*;
 
 public class TestIterator {
 
@@ -21,6 +22,7 @@ public class TestIterator {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
+    //list = new LinkedList<Integer>();
     // TODO also try with a LinkedList - does it make any difference? TODO Implement
   }
 
