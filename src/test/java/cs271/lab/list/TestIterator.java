@@ -3,7 +3,6 @@ package cs271.lab.list;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -80,11 +79,11 @@ public class TestIterator {
         i.remove(); // TODO what happens if you use list.remove(77)?
       }
     }
-    assertEquals(Arrays.asList(33,44,55,66), list);
+    assertEquals(Arrays.asList(33, 44, 55, 66), list);
     // TODO using assertEquals and Arrays.asList, express which values are left in the list
     // See TestList.java for examples of how to use Arrays.asList; also see the Java Arrays
     // class for more information
-   
+
   }
 
   @Test
@@ -99,14 +98,12 @@ public class TestIterator {
     double sum = 0;
     int n = 0;
     final Iterator<Integer> i = list.iterator();
-    
-    while(i.hasNext())
-    {
+
+    while (i.hasNext()) {
       sum = sum + i.next();
       n = n + 1;
     }
-    
-  
+
     // TODO use an iterator and a while loop to compute the average (mean) of the values
     // (defined as the sum of the items divided by the number of items)
     // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
