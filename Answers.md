@@ -1,6 +1,7 @@
 #These are the Answers
 ##Ensminger Lorentz Lab 3
 
+<<<<<<< HEAD
 
 ##From TestList
 1.also try with a LinkedList - does it make any difference?
@@ -11,3 +12,6 @@
         This removes the first instance of the integer 5 in the list. The method
         interates through the list and the first time it hits the indicated
         value, it removes that value.
+=======
+1.
+>>>>>>> 78031e3ee2b541ef5bde4f9d8e16893f41e2a869
