@@ -1,5 +1,6 @@
-# These are the Answers
-## Ensminger Lorentz Lab 3
+# Ensminger Lorentz Lab 3
+## These are the Answers
+
 
 
 ## From TestList
@@ -18,4 +19,4 @@
 2. What happens if you use list.remove(77)?
         It throws a IndexOutofBounds exceptions
 
-[Data visualization] (https://docs.google.com/spreadsheets/d/1dckLVJAO3MqpKccG0OPcwPAtMZBF-q_hb77dONblKyM/edit?usp=sharing)
+[Data visualization](https://docs.google.com/spreadsheets/d/1dckLVJAO3MqpKccG0OPcwPAtMZBF-q_hb77dONblKyM/edit?usp=sharing)
