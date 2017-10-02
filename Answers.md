@@ -1,8 +1,8 @@
-#These are the Answers
-##Ensminger Lorentz Lab 3
+# These are the Answers
+## Ensminger Lorentz Lab 3
 
 
-##From TestList
+## From TestList
 1.also try with a LinkedList - does it make any difference?
 2.list.remove(5); // what does this method do?
         This removes the item at the 5th index of the list. It does not matter
@@ -18,3 +18,4 @@
 2. What happens if you use list.remove(77)?
         It throws a IndexOutofBounds exceptions
 
+[Data visualization] (https://docs.google.com/spreadsheets/d/1dckLVJAO3MqpKccG0OPcwPAtMZBF-q_hb77dONblKyM/edit?usp=sharing)
